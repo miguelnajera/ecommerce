@@ -1,0 +1,180 @@
+/*====================================================
+GLOBAL
+=====================================================*/
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+ul, ol{
+	padding: 0px;
+}
+
+a:visited,a:link,a:focus,a:hover,a:active{
+	list-style: none;
+	text-decoration: none;
+}
+
+.barraSuperior{
+	background-color: black;
+}
+
+.barraSuperior a{
+	color: white;
+}
+
+.backColor , .backColor a{
+	background-color: #47bac1;
+	color:white;
+}
+
+/*====================================================
+REDES SOCIALES
+=====================================================*/
+.redSocial{
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+}
+
+/*====================================================
+FACEBOOK
+=====================================================*/
+
+.facebookBlanco{
+	color:white;
+}
+
+.facebookNegro{
+	color: black;
+}
+.facebookColor{
+	color: white;
+	background-color: blue;
+
+}
+
+/*====================================================
+YOUTUBE
+=====================================================*/
+
+.youtubeBlanco{
+	color:white;
+}
+
+.youtubeNegro{
+	color: black;
+}
+.youtubeColor{
+	color: white;
+	background-color: red;
+
+}
+
+/*====================================================
+TWITTER
+=====================================================*/
+.twitterBlanco{
+	color:white;
+}
+
+.twitterNegro{
+	color: black;
+}
+.twitterColor{
+	color: white;
+	background-color: #0ab2e6;
+
+}
+
+
+/*====================================================
+INSTAGRAM
+=====================================================*/
+.instagramBlanco{
+	color:white;
+}
+
+.instagramNegro{
+	color: black;
+}
+.instagramColor{
+	color: white;
+	background:linear-gradient(45deg, #fca925,#ee1d5F, #6350a2);
+}
+
+/*====================================================
+ERROR 404
+=====================================================*/
+
+.error404{
+	color: #333;
+}
+
+.error404 h1{
+	margin-top: -20px;
+}
+
+/*====================================================
+ESCRITORIO GRANDE (LG revisamos en 1366 en adelante)
+=====================================================*/
+@media(min-width: 1200px) {
+
+	.col-lg-0{
+		display: none;
+	}
+
+	.error404 h1{
+		font-size: 300px;
+		text-shadow: 8px 8px 1px #dadada;
+	}
+	
+}
+
+/*====================================================
+ESCRITORIO MEDIANO o TABLET HORIZONTAL (MD revisamos en 1024px)
+=====================================================*/
+@media(max-width: 1199px) and (min-width: 992px){
+	.col-md-0{
+		display: none;
+	}
+	
+	.error404 h1{
+		font-size: 275px;
+		text-shadow: 6px 6px 1px #dadada;
+	}
+	
+}
+
+/*====================================================
+ESCRITORIO PEQUENIO O TABLET VERTICAL (SM revisamos en 768px)
+=====================================================*/
+@media(max-width: 991px) and (min-width: 768px){
+	.col-sm-0{
+		display: none;
+	}
+
+	.error404 h1{
+		font-size: 150px;
+		text-shadow: 4px 4px 1px #dadada;
+	}
+}
+/*====================================================
+MOVIL (XS revisamos en 320px)
+=====================================================*/
+@media(max-width: 767px){
+	.col-xs-0{
+		display: none;
+	}
+
+	.error404 h1{
+		font-size: 75px;
+		text-shadow: 2px 2px 1px #dadada;
+	}
+}
